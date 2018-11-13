@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalcTest.API</name>
+    </assembly>
+    <members>
+        <member name="T:CalcTest.API.Controllers.CalcTestController">
+            <summary>
+            Classe controladora das operações de cálculo de juros compostos.
+            </summary>
+        </member>
+        <member name="M:CalcTest.API.Controllers.CalcTestController.CalculaJuros(System.Decimal,System.Int32)">
+            <summary>
+            Método responsável por realizar o cálculo de juros compostos.
+            </summary>
+            <param name="valorInicial">Valor Inicial.</param>
+            <param name="meses">Quantidade de meses.</param>
+            <returns>Resultado do cálculo de juros compostos.</returns>
+        </member>
+        <member name="T:CalcTest.API.Exceptions.DoubleInfinityException">
+            <summary>
+            Exceção que determina que o cálculo retornou um valor Infinity.
+            </summary>
+        </member>
+        <member name="T:CalcTest.Controllers.CodeController">
+            <summary>
+            Classe responsável por gerenciar o código do proje 
+            </summary>
+        </member>
+        <member name="M:CalcTest.Controllers.CodeController.Get">
+            <summary>
+            Retorna o link do Github onde se encontra o código do projeto CalcTest.
+            </summary>
+            <returns>Url de acesso ao código fonte do projeto.</returns>
+        </member>
+    </members>
+</doc>
