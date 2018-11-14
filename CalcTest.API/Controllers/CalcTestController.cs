@@ -1,5 +1,6 @@
 ﻿using CalcTest.API.Entities;
 using CalcTest.API.Interfaces;
+using CalcTest.API.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 
@@ -19,7 +20,10 @@ namespace CalcTest.API.Controllers
         [HttpGet("api/calculajuros/{valorInicial}/{meses}")]
         public string CalculaJuros(decimal valorInicial, int meses)
         {
-            Calculo calculo = new JuroComposto(Convert.ToDouble(valorInicial), meses);
+            JuroComposto juroComposto = new JuroComposto(Convert.ToDouble(valorInicial), meses);
+            juroComposto.ehValido();
+
+            Calculo calculo = new JuroCompostoService(juroComposto);
             return calculo.Calcular();
         }
     }

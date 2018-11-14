@@ -1,14 +1,21 @@
 ﻿using CalcTest.API.Exceptions;
-using CalcTest.API.Interfaces;
-using System;
 
 namespace CalcTest.API.Entities
 {
-    public class JuroComposto : Calculo
+    public class JuroComposto
     {
+        /// <summary>
+        /// Valor inicial considerado base para o cálculo dos juros.
+        /// </summary>
         public double ValorInicial { get; set; }
+        /// <summary>
+        /// Quantidade de meses.
+        /// </summary>
         public int QuantidadeMeses { get; set; }
-        private readonly double _taxaDeJuros = 0.01;
+        /// <summary>
+        /// Percentual da taxa de juros.
+        /// </summary>
+        public readonly double TaxaDeJuros = 0.01;
 
         public JuroComposto(double valorInicial, int quantidadeMeses)
         {
@@ -16,15 +23,15 @@ namespace CalcTest.API.Entities
             QuantidadeMeses = quantidadeMeses;
         }
 
-        public string Calcular()
+        /// <summary>
+        /// Método responsável por validar se os atributos essenciais para o cálculo são válidos.
+        /// </summary>
+        public void ehValido()
         {
-            double valorFinal = ValorInicial * Math.Pow(1 + _taxaDeJuros, QuantidadeMeses);
-            valorFinal = Math.Truncate(100 * valorFinal) / 100;
-
-            if (valorFinal > double.MaxValue)
-                throw new DoubleInfinityException();
-
-            return valorFinal.ToString("F");
+            if(ValorInicial < 0 || QuantidadeMeses < 0)
+            {
+                throw new ParametrosInvalidosException();
+            }
         }
     }
 }
