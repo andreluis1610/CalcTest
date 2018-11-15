@@ -38,10 +38,12 @@ namespace CalcTest.Test
         }
 
         [TestMethod]
+        [DataRow("-1", 10)]
+        [DataRow("130,45", -5)]
         [ExpectedException(typeof(ParametrosInvalidosException))]
-        public void CalcTest_deveRetornarExceptionParametrosInvalidos()
+        public void CalcTest_deveRetornarExceptionParametrosInvalidos(string valorInicial, int meses)
         {
-            var retorno = _calcTestController.CalculaJuros(-1, 10);
+            var retorno = _calcTestController.CalculaJuros(decimal.Parse(valorInicial), meses);
         }
     }
 }

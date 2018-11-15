@@ -53,7 +53,7 @@
             Classe responsável por gerenciar o código do proje 
             </summary>
         </member>
-        <member name="M:CalcTest.Controllers.CodeController.Get">
+        <member name="M:CalcTest.Controllers.CodeController.GetUrlCode">
             <summary>
             Retorna o link do Github onde se encontra o código do projeto CalcTest.
             </summary>
