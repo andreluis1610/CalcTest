@@ -12,9 +12,9 @@ namespace CalcTest.Controllers
         /// </summary>
         /// <returns>Url de acesso ao código fonte do projeto.</returns>
         [HttpGet("api/showmethecode")]
-        public string Get()
+        public string GetUrlCode()
         {
-            return "https://github.com/andreluis1610/WebApi";
+            return "https://github.com/andreluis1610/CalcTest";
         }
     }
 }

@@ -22,3 +22,15 @@ C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\obj\Debug\netcoreap
 C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\obj\Debug\netcoreapp2.0\CalcTest.API.AssemblyInfo.cs
 C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\obj\Debug\netcoreapp2.0\CalcTest.API.dll
 C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\obj\Debug\netcoreapp2.0\CalcTest.API.pdb
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\a\netcoreapp2.0\appsettings.json\netcoreapp2.0\CalcTest.API.deps.json
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\a\netcoreapp2.0\appsettings.json\netcoreapp2.0\CalcTest.API.runtimeconfig.json
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\a\netcoreapp2.0\appsettings.json\netcoreapp2.0\CalcTest.API.runtimeconfig.dev.json
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\a\netcoreapp2.0\appsettings.json\netcoreapp2.0\CalcTest.API.dll
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\a\netcoreapp2.0\appsettings.json\netcoreapp2.0\CalcTest.API.pdb
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\a\netcoreapp2.0\appsettings.json\netcoreapp2.0\CalcTest.API.xml
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\netcoreapp2.0\CalcTest.API.deps.json
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\netcoreapp2.0\CalcTest.API.runtimeconfig.json
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\netcoreapp2.0\CalcTest.API.runtimeconfig.dev.json
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\netcoreapp2.0\CalcTest.API.dll
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\netcoreapp2.0\CalcTest.API.pdb
+C:\Users\Andre\Desktop\Desenvolvimento\CalcTest\CalcTest.API\bin\Debug\netcoreapp2.0\netcoreapp2.0\CalcTest.API.xml
