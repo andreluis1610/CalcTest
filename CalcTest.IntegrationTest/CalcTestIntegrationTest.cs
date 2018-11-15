@@ -8,14 +8,14 @@ namespace CalcTest.IntegrationTest
     public class CalcTestIntegrationTest
     {
         [Fact]
-        public async Task CalcTest_CalculaJuros()
+        public async Task CalcTest_CalculaJuros_ReturnOK()
         {
             using (var client = new TestClientProvider().Client)
             {
-                var response = await client.GetAsync(string.Format("/api/calculajuros/{0}/{1}", 100, 5));
+                var response = await client.GetAsync("/api/calculajuros/100/5");
 
                 response.EnsureSuccessStatusCode();
-                response.StatusCode.Should().Be(response.StatusCode);
+                response.StatusCode.Should().Be(HttpStatusCode.OK);
             }
         }
     }
